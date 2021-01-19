@@ -1,0 +1,45 @@
+body { color: #3c4856; font-family: 'Poppins', sans-serif; font-size: 18px; }
+
+h1, h2, h3 { font-weight: 300; }
+
+.container { max-width: 1250px; }
+
+.font-color-meoof-red { color: #0c5b47; }
+
+.bg-meoof-black { background: #353535; }
+
+.bg-meoof-red { background: #0c5b47; }
+
+.bg-meoof-section { background: #ecf5e9; }
+
+.header { font-size: 0; background: var(--cd41c0c34); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border-top: 2px solid #0c5b47; }
+
+.header .logo { width: 25%; color: #0c5b47; padding: 22px 16px 23px; font-size: 16px; display: inline-block; display: inline-block; vertical-align: middle; font-size: 25px; }
+
+.header nav { font-size: 0; width: 75%; white-space: nowrap; overflow-x: auto; display: inline-block; vertical-align: middle; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; text-align: right; overflow-y: hidden; }
+
+.header nav .nav-item { color: #353535; padding: 22px 16px 23px; font-size: 16px; }
+
+.scroll::-webkit-scrollbar { display: none; }
+
+.hover-effect-container .hover-effect-up { transition: margin 0.2s ease-out; -webkit-transition: margin 0.2s ease-out; -moz-transition: margin 0.2s ease-out; -o-transition: margin 0.2s ease-out; }
+
+.hover-effect-container:hover .hover-effect-up { margin-top: -10px; margin-bottom: 26px !important; }
+
+.btn { border-radius: 0px; }
+
+.leaves-bg { background: url(https://www.toptal.com/designers/subtlepatterns/patterns/geometric-leaves.png); }
+
+.border-radius-50 { border: 1px dashed #0c5b47; }
+
+.mark { background: -webkit-gradient(linear, left top, left bottom, from(#feac0e), color-stop(70%, #0c5b47)); background: linear-gradient(180deg, #feac0e, #0c5b47 70%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; -webkit-box-decoration-break: clone; }
+
+/* Create three equal columns that floats next to each other */
+.column { float: left; width: 33.33%; display: none; /* Hide all elements by default */ }
+
+/* Clear floats after rows */
+.row:after { content: ""; display: table; clear: both; }
+
+/* The "show" class is added to the filtered elements */
+.show { display: block; }
+/*# sourceMappingURL=style.css.map */
